@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+body{
+  color: white;
+  font-family: sans-serif;
+  
+
+}
+.signInBtn{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
+.netfilx{
+  color:#e50914 ;
+  font-family: 'Martel Sans', sans-serif;
+}
+.firstDiv{
+  background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
+  background-size: cover;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px ;
+}
+.btn-danger{
+  border-radius: 0px;
+}
+#email{
+  line-height: 35px;
+}
+.firstDivContent{
+  padding-top: 150px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.firstDivContent>h1{
+  font-size: 70px;
+}
+.firstDivContent>h5{
+  font-size: 30px;
+}
+.firstDivContent>h6{
+  font-size: 20px;
+}
+.SecToFifthDiv{
+  background-color: black;
+  border:10px solid #222;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sixthDiv{
+  background-color: black;
+  border:10px solid #222;
+  border-left: none;
+  border-right: none;
+  border-top: 5px;
+  text-align: center;
+}
+.footer{
+  background-color: black;
+  color: #6f6f70;
+  text-align: left;
+  padding: 50px 300px 50px 400px;
+}
+li{
+  list-style: none;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+}
+select{
+  background-color: transparent ;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  margin-right: 15px;
+  
+  
+}
+option{
+  background-color: transparent ;
+  color: black;
+}
+.footer>select{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #6f6f70;
+  color: #6f6f70;
+  padding: 5px;
+  width: 15%;
+}
+.faq{
+  text-align: left;
+  padding: 10px 50px 10px 15px;
+  background-color:#6f6f70 ;
+  margin: 10px 20% 10px 20%;
+  font-size: 25px;
+}
