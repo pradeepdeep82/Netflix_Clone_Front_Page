@@ -2,38 +2,52 @@
 body{
   color: white;
   font-family: sans-serif;
-  
+  background-color: black;
+}
 
+.firstDiv{
+  background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
+  background-size: cover;
+}
+.netfilx{
+  color:#e50914 ;
+  font-family: 'Martel Sans', sans-serif;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.Netflix{
+  padding-right: 0px;
+}
+.langSign{
+  text-align: right;
+  margin-left:0px;
+  padding-left: 0px;
+}
+select{
+  background-color: transparent ;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 3px 5px 3px;
+  margin-right: 15px;
+  margin-top: 20px;
+  border-radius: 0.3rem;
 }
 .signInBtn{
   background-color: red;
   border: none;
   color: white;
-  padding: 5px 15px 5px 15px;
-}
-.netfilx{
-  color:#e50914 ;
-  font-family: 'Martel Sans', sans-serif;
-}
-.firstDiv{
-  background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
-  background-size: cover;
-}
-.head{
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 30px 15px 30px ;
-}
-.btn-danger{
-  border-radius: 0px;
-}
-#email{
-  line-height: 35px;
+  padding: 5px 3px 5px 3px;
+  margin-right: 10px;
+  border-radius: 0.3rem;
 }
 .firstDivContent{
   padding-top: 150px;
   padding-bottom: 200px;
   text-align: center;
+}
+#email{
+  line-height: 35px;
 }
 .firstDivContent>h1{
   font-size: 70px;
@@ -45,16 +59,14 @@ body{
   font-size: 20px;
 }
 .SecToFifthDiv{
-  background-color: black;
-  border-left: none;
-  border-right: none;
+  text-align: center;
   border-top: 10px solid #222;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  border-top: 10px solid #222;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-
 .sixthDiv{
   background-color: black;
   border:10px solid #222;
@@ -64,44 +76,48 @@ body{
   text-align: center;
   padding-top: 30px;
 }
-.footer{
-  background-color: black;
-  color: #6f6f70;
+.faq{
   text-align: left;
-  padding: 50px 300px 50px 400px;
+  padding: 10px 50px 10px 15px;
+  background-color:#303030 ;
+  margin: 10px 20% 10px 20%;
+  font-size: 25px;
+  list-style: none;
 }
 li{
   list-style: none;
 }
-.list{
-  display: flex;
-  justify-content: space-between;
-}
-select{
-  background-color: transparent ;
-  border: 1px solid white;
-  color: white;
-  padding: 5px;
-  margin-right: 15px;
-  
+.footer{
+  color: #6f6f70;
+  margin-top: 40px;
   
 }
 option{
   background-color: transparent ;
   color: black;
 }
-.footer>select{
+.footerLan>select{
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid #6f6f70;
   color: #6f6f70;
-  padding: 5px;
-  width: 15%;
+  padding: 15px;
+  width: 32%;
 }
-.faq{
-  text-align: left;
-  padding: 10px 50px 10px 15px;
-  background-color:#6f6f70 ;
-  margin: 10px 20% 10px 20%;
-  font-size: 25px;
+
+
+
+
+@media (max-width:426px){
+  .firstDivContent>h1{
+    font-size: 40px;
+  }
+  .faq{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+  }
+  #email{
+    size: 30px;
+  }
 }
